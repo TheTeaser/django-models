@@ -1,0 +1,22 @@
+<!-- base.html -->
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+    <title>Snack Tracker</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <header>
+        
+        <h1>Snack Tracker</h1>
+    </header>
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+    <footer>
+        &copy; TheTeaser
+    </footer>
+</body>
+</html>
