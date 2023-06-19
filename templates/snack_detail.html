@@ -6,4 +6,6 @@
     <h2>{{snack.name}}</h2>
     <p>{{snack.purchaser}}</p>
     <p>{{snack.description}}</p>
+    <a href="{% url 'snack_update' snack.pk %}" class="btn btn-primary">Update</a>
+    <a href="{% url 'snack_delete' snack.pk %}" class="btn btn-danger">Delete</a>
 {% endblock %}
