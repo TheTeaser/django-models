@@ -1,6 +1,6 @@
 # django-models
 
-## LAB - Class 27
+## LAB - Class 27 - 28
 
 ## Project: django-snacks
 ## Author: ***Rakan M. Al-Madani***
